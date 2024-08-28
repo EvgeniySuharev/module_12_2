@@ -57,6 +57,7 @@ class TournamentTest(unittest.TestCase):
             print(key)
             for i in cls.all_results[key]:
                 print(f'{cls.all_results[key][i]} - {i}')
+            print()
 
 
 if __name__ == '__main__':
